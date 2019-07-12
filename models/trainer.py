@@ -4,7 +4,7 @@ from __future__ import division
 from __future__ import print_function
 
 import sys
-sys.path.append('/home/junyoung/workspace/Mol_DQN')
+sys.path.append('Mol_DQN')
 
 import os
 import time
