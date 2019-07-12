@@ -46,7 +46,7 @@
     "save_param": {
         "save_frequency": 200,
         "max_num_checkpoints": 100,
-        "model_path": "/home/junyoung/workspace/Mol_DQN/result/qed_model_0",
-        "log_path" : "/home/junyoung/workspace/Mol_DQN/result/qed_model_0/log.log"
+        "model_path": "Mol_DQN/result/qed_model_0",
+        "log_path" : "Mol_DQN/result/qed_model_0/log.log"
     }
 }
