@@ -2,7 +2,7 @@
     "model_name": "qed_model",
     "model": "dqn",
     "train_param": {
-        "num_episodes": 4000,
+        "num_episodes": 400,
         "max_steps_per_episode": 20,
         "learning_rate": 0.0004,
         "learning_rate_decay_steps": 10000,
