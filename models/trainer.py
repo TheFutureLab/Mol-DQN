@@ -85,6 +85,7 @@ class Trainer():
             self.global_step = 0
             for self.episode in range(self.num_episodes):
                 self.global_step = self._episode()
+                print(self.episode,self.global_step)
                 if (self.episode + 1) % self.update_frequency == 0:
                     sess.run(self.dqn.update_op)
                 if (self.episode + 1) % self.save_frequency == 0:
